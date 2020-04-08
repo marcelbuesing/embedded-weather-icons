@@ -1,0 +1,18 @@
+[package]
+name = "embedded-weather-icons"
+version = "0.1.0"
+authors = ["marcelbuesing <buesing.marcel@googlemail.com>"]
+edition = "2018"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tinybmp = { version = "0.2", features = ["graphics"] }
+
+[features]
+default = []
+icons16x16 = []
+icons32x32 = []
+icons64x64 = []
+icons128x128 = []
